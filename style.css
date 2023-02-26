@@ -27,6 +27,36 @@
     color: #cf1020
 }
 
+h2 {
+    font-family: Verdana;
+    color: white
+}
+
+.btn {
+    background-color: white;
+    color:#cf1020;
+    transition: all 0.3s ease-in-out;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: #cf1020;
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer a {
     text-decoration: none;
     color: white;
