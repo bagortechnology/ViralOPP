@@ -26,3 +26,12 @@
 .nav-link:hover {
     color: #cf1020
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color:#cf1020
+}
