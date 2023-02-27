@@ -1,6 +1,6 @@
 .navbar {
-    background: black;
-    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    background: white;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -19,14 +19,15 @@
 .nav-link,
 .dropdown-menu,
 .dropdown-item {
-    color: white;
-    background-color: black;
+    color: black;
     font-weight:500;
+
 }
 
 .nav-link:hover {
     color: #cf1020;
-}
+    text-decoration: none;
+} 
 
 h2 {
     font-family: Verdana;
@@ -44,6 +45,12 @@ h2 {
     background-color: #cf1020;
     color: white;
     transform: scale(1.2);
+}
+
+#hero {
+    background-image: url(assets/home-bg-light.png);
+    background-size:cover;
+    
 }
 
 
