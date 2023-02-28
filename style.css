@@ -49,9 +49,11 @@ h2 {
 
 #hero {
     background-image: url(assets/home-bg-light.png);
-    background-size:cover;
-    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
+
 
 .section-heading {
     color:black
