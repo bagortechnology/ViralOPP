@@ -2,6 +2,7 @@
     background: white;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     transition: all 0.3s ease-in-out;
+    font-family: sans-serif !important;
 }
 
 .navbar-toggler-icon {
@@ -14,6 +15,7 @@
 
 .navbar-toggler:hover {
     border-color: transparent;
+    color: white;
 }
   
 .nav-link,
@@ -29,6 +31,10 @@
     text-decoration: none;
 } 
 
+a.nav-link {
+    font-weight: 900;
+}
+
 h2 {
     font-family: Verdana;
     color: white
@@ -36,15 +42,25 @@ h2 {
 
 .btn {
     background-color: white;
+    border-color:#cf1020;
     color:#cf1020;
-    transition: all 0.3s ease-in-out;
     font-weight: 900;
 }
 
 .btn:hover {
     background-color: #cf1020;
     color: white;
-    transform: scale(1.2);
+}
+
+.btn.search-btn {
+    background-color: black;
+    color:#cf1020;
+    font-weight: 900;
+}
+
+.btn.search-btn:hover {
+    background-color: #cf1020;
+    color: white;
 }
 
 #hero {

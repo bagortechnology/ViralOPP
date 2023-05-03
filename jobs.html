@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HS1M1LTXEE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HS1M1LTXEE');
-</script>
+    <script src="assets/js/gtag.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
     <title>Jobs | ViralOpp.NET</title>
 </head>
 <body>
@@ -25,7 +17,7 @@
   <nav class="navbar sticky-top navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/viralopp-logo-header.svg" alt="ViralOpp.NET Logo">
+        <img src="assets/img/viralopp-logo-header.svg" alt="ViralOpp.NET Logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="HomeNavBar" aria-expanded="false" aria-label="Toggle Navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,6 +46,39 @@
   <p class="lead mx-auto px-4 fw-bold" style="text-align: justify">
     Explore our high paying jobs page today and take the first step towards a successful and fulfilling career.
   </p>
+
+  <!--Job Search-->
+  <div class="container p-3" style="background-color: black; border-radius: 10px;">
+    <form>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-5 py-2">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fas fa-briefcase" style="color:#cf1020"></i>
+            </span>
+            <input type="text" class="form-control" name="job-search" id="job-search" placeholder="Job, title, skills or company"
+            style="height: 50px;">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fas fa-map-marker-alt" style="color:#cf1020"></i>
+            </span>
+            <input type="text" class="form-control" name="location-search" id="location-search" placeholder="Town, city, or zip"
+            style="height: 50px;">
+          </div>
+        </div>
+        <div class="col-12 col-md-1 py-2">
+          <button class="btn search-btn w-100 btn-lg" type="button" onclick="searchJobs()">
+          <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <!--Job List 1-->
+
   <!--opportunity no.1-->
   <div class="card m-3">
     <div class="row g-0">
