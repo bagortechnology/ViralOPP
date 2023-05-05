@@ -96,3 +96,57 @@ footer a {
 footer a:hover {
     color:#cf1020
 }
+
+/** Job Listings **/
+
+.job-item .btn {
+    background-color: #cf1020;
+    color: white;
+    border-color: #cf1020;
+}
+
+.job-item .btn:hover {
+    background-color: white;
+    color: #cf1020;
+    border-color: #cf1020;
+}
+
+.job-item .btn  i {
+    color: white
+}
+
+.job-item .btn:hover i {
+    color: #cf1020 !important;
+}
+
+.job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: 2s;
+}
+
+.job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+a.post-job:hover{
+    background-color: #cf1020 !important;
+    color: white !important;
+}
+
+#jobTitle {
+    text-decoration: none;
+    color:#cf1020;
+}
+
+#jobTitle:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#jobLocation {
+    text-decoration: none;
+    color: black;
+}
